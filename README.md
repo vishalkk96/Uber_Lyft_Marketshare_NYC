@@ -59,6 +59,8 @@ Both wait durations and fare per miles are causally linked to the lyft share sin
 
 Uber wait duration and Lyft wait duration are used to predict the Uber fare, Lyft fare and Lyft share
 
+XGBoost models are used after hyperparameter tuning for each nuisance model
+
 #### Linear Regression Model
 
 The errors from each fare model are used to build a linear regression model predicting the error in the Lyft share
